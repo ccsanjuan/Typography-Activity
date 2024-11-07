@@ -25,31 +25,6 @@ body, html {
     box-sizing: border-box;
   }
 
-  /* Grid Styling */
-  .grid {
-  position: relative; /* Positioning context for lines */
-  width: 1080px;
-  height: 1920px;
-  }
-
-      /* Vertical Lines for Columns */
-      .vertical-line {
-      position: absolute;
-      width: 19.5px; /* Width of the vertical line */
-      height: 1920px; /* Full height of the poster */
-      background-color: rgba(0, 0, 0, 0.5); /* Color of the vertical lines */
-      z-index: 0; /* Behind other content */
-      }
-
-      /* Horizontal Lines for Rows */
-      .horizontal-line {
-      position: absolute;
-      width: 1080px; /* Full width of the poster */
-      height: 19.5px; /* Height of the horizontal line */
-      background-color: rgba(0, 0, 0, 0.5); /* Color of the horizontal lines */
-      z-index: 0; /* Behind other content */
-      }
-
   /* HEADLINE */
     /* Styling for the red dash behind the headline "TAMA NA" */
     .red-dash {
